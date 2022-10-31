@@ -1,3 +1,12 @@
+# me
+.venv/
+assets/
+sources/
+prolog/
+scripts/
+requirements.txt
+package.json
+
 # Logs
 logs
 *.log
