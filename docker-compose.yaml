@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+
+  seeds:
+    image: yababay/historian:seeds
+    build: ./seeds  
+    depends_on: 
+      - redis
+    networks:
+      historian-network:
+        ipv4_address: 192.168.167.10
+
+  redis:
+    image: redis:bullseye
+    volumes:
+      - redis_data:/data
+    networks:
+      historian-network:
+        ipv4_address: 192.168.167.11
+
+volumes:
+  redis_data:
+    external: false
+
+networks:
+  historian-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.167.0/24
+          gateway: 192.168.167.167
+
