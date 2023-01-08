@@ -4,6 +4,7 @@ services:
 
   seeds:
     image: yababay/historian:seeds
+    container_name: historical_prolog
     build: ./seeds  
     depends_on: 
       - redis
