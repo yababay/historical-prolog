@@ -2,18 +2,21 @@ version: "3.9"
 
 services:
 
-  seeds:
+  prolog:
     image: yababay/historian:seeds
     container_name: historical_prolog
-    build: ./seeds  
+    build: ./prolog  
     depends_on: 
       - redis
+    volumes:
+      - prolog_data:/srv/test
     networks:
       historian-network:
         ipv4_address: 192.168.167.10
 
   redis:
     image: redis:bullseye
+    container_name: historical_redis
     volumes:
       - redis_data:/data
     networks:
@@ -23,6 +26,8 @@ services:
 volumes:
   redis_data:
     external: false
+  prolog_data:
+    external: true
 
 networks:
   historian-network:

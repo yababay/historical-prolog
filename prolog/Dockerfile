@@ -9,9 +9,10 @@ ENV LC_ALL ru_RU.utf8
 RUN /bin/bash -c 'echo "au BufNewFile,BufRead *.prolog setf prolog" >> /usr/share/nvim/runtime/filetype.vim'
 RUN /bin/bash -c 'echo "au BufNewFile,BufRead *.pl setf prolog" >> /usr/share/nvim/runtime/filetype.vim'
 WORKDIR /srv
-RUN mkdir seeds
-COPY *.redis seeds/
+RUN mkdir seed
 RUN mkdir util
+RUN mkdir test
+COPY *.redis seed/
 COPY *.prolog util/
-ENTRYPOINT ["/bin/bash", "-c", "cat seeds/*.redis | while read line; do redis-cli -h redis $line; done &>/dev/null && tail -f /dev/null"]
+ENTRYPOINT ["/bin/bash", "-c", "cat seed/*.redis | while read line; do redis-cli -h redis $line; done &>/dev/null && tail -f /dev/null"]
 
