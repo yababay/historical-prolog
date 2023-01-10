@@ -1,40 +1,45 @@
-hset person:96425b4e-937c-407d-b01d-058a310a5bcd common_name "Ольга"
-hset person:96425b4e-937c-407d-b01d-058a310a5bcd genitive "Ольги"
-hset person:96425b4e-937c-407d-b01d-058a310a5bcd title "княгиня киевская"
-hset person:96425b4e-937c-407d-b01d-058a310a5bcd gender 0
-hset person:96425b4e-937c-407d-b01d-058a310a5bcd link "https://ru.wikipedia.org/wiki/%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0_(%D0%BA%D0%BD%D1%8F%D0%B3%D0%B8%D0%BD%D1%8F_%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F)"
+hset личность:96425b4e-937c-407d-b01d-058a310a5bcd "общее имя" "Ольга"
+hset личность:96425b4e-937c-407d-b01d-058a310a5bcd "родительный падеж" "Ольги"
+hset личность:96425b4e-937c-407d-b01d-058a310a5bcd "дательный падеж" "Ольге"
+hset личность:96425b4e-937c-407d-b01d-058a310a5bcd "титул" "княгиня киевская"
+hset личность:96425b4e-937c-407d-b01d-058a310a5bcd "пол" 0
+hset личность:96425b4e-937c-407d-b01d-058a310a5bcd "ссылка" "https://ru.wikipedia.org/wiki/%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0_(%D0%BA%D0%BD%D1%8F%D0%B3%D0%B8%D0%BD%D1%8F_%D0%BA%D0%B8%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F)"
 
-hset person:1a59c12b-2f8c-4e9d-8fe4-290695db11db common_name "Игорь Рюрикович"
-hset person:1a59c12b-2f8c-4e9d-8fe4-290695db11db genitive "Игоря Рюриковича"
-hset person:1a59c12b-2f8c-4e9d-8fe4-290695db11db title "князь киевский"
-hset person:1a59c12b-2f8c-4e9d-8fe4-290695db11db gender 1
-hset person:1a59c12b-2f8c-4e9d-8fe4-290695db11db link "https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%A0%D1%8E%D1%80%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D1%87"
+hset личность:1a59c12b-2f8c-4e9d-8fe4-290695db11db "общее имя" "Игорь Рюрикович"
+hset личность:1a59c12b-2f8c-4e9d-8fe4-290695db11db "родительный падеж" "Игоря Рюриковича"
+hset личность:1a59c12b-2f8c-4e9d-8fe4-290695db11db "дательный падеж" "Игорю Рюриковичу"
+hset личность:1a59c12b-2f8c-4e9d-8fe4-290695db11db "титул" "князь киевский"
+hset личность:1a59c12b-2f8c-4e9d-8fe4-290695db11db "пол" 1
+hset личность:1a59c12b-2f8c-4e9d-8fe4-290695db11db "ссылка" "https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%A0%D1%8E%D1%80%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D1%87"
 
-hset person:8be48fa1-dce8-487d-94d2-a4d0b3c8160c common_name "Святослав Игоревич"
-hset person:8be48fa1-dce8-487d-94d2-a4d0b3c8160c genitive "Святослава Игоревича"
-hset person:8be48fa1-dce8-487d-94d2-a4d0b3c8160c title "князь киевский"
-hset person:8be48fa1-dce8-487d-94d2-a4d0b3c8160c gender 1
-hset person:8be48fa1-dce8-487d-94d2-a4d0b3c8160c link "https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D1%81%D0%BB%D0%B0%D0%B2_%D0%98%D0%B3%D0%BE%D1%80%D0%B5%D0%B2%D0%B8%D1%87"
+hset личность:8be48fa1-dce8-487d-94d2-a4d0b3c8160c "общее имя" "Святослав Игоревич"
+hset личность:8be48fa1-dce8-487d-94d2-a4d0b3c8160c "родительный падеж" "Святослава Игоревича"
+hset личность:8be48fa1-dce8-487d-94d2-a4d0b3c8160c "дательный падеж" "Святославу Игоревичу"
+hset личность:8be48fa1-dce8-487d-94d2-a4d0b3c8160c "титул" "князь киевский"
+hset личность:8be48fa1-dce8-487d-94d2-a4d0b3c8160c "пол" 1
+hset личность:8be48fa1-dce8-487d-94d2-a4d0b3c8160c "ссылка" "https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D1%81%D0%BB%D0%B0%D0%B2_%D0%98%D0%B3%D0%BE%D1%80%D0%B5%D0%B2%D0%B8%D1%87"
 
-hset person:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 common_name "Вещий Олег"
-hset person:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 genitive "Вещего Олега"
-hset person:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 title "правитель новгородский"
-hset person:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 gender 1
-hset person:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 link "https://ru.wikipedia.org/wiki/%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%B5%D1%89%D0%B8%D0%B9"
+hset личность:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 "общее имя" "Вещий Олег"
+hset личность:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 "родительный падеж" "Вещего Олега"
+hset личность:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 "дательный падеж" "Вещегму Олегу"
+hset личность:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 "титул" "правитель новгородский"
+hset личность:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 "пол" 1
+hset личность:0145db82-13c4-4cdd-8e00-bdc9ed23f6e5 "ссылка" "https://ru.wikipedia.org/wiki/%D0%9E%D0%BB%D0%B5%D0%B3_%D0%92%D0%B5%D1%89%D0%B8%D0%B9"
 
-hset person:5a9d8df0-3124-48a3-ae4b-b173d5bde221 common_name "Рюрик"
-hset person:5a9d8df0-3124-48a3-ae4b-b173d5bde221 genitive "Рюрика"
-hset person:5a9d8df0-3124-48a3-ae4b-b173d5bde221 title "князь новгоровский"
-hset person:5a9d8df0-3124-48a3-ae4b-b173d5bde221 gender 1
-hset person:5a9d8df0-3124-48a3-ae4b-b173d5bde221 link "https://ru.wikipedia.org/wiki/%D0%A0%D1%8E%D1%80%D0%B8%D0%BA"
+hset личность:5a9d8df0-3124-48a3-ae4b-b173d5bde221 "общее имя" "Рюрик"
+hset личность:5a9d8df0-3124-48a3-ae4b-b173d5bde221 "родительный падеж" "Рюрика"
+hset личность:5a9d8df0-3124-48a3-ae4b-b173d5bde221 "дательный падеж" "Рюрику"
+hset личность:5a9d8df0-3124-48a3-ae4b-b173d5bde221 "титул" "князь новгоровский"
+hset личность:5a9d8df0-3124-48a3-ae4b-b173d5bde221 "пол" 1
+hset личность:5a9d8df0-3124-48a3-ae4b-b173d5bde221 "ссылка" "https://ru.wikipedia.org/wiki/%D0%A0%D1%8E%D1%80%D0%B8%D0%BA"
 
-set child_of:1a59c12b-2f8c-4e9d-8fe4-290695db11db 5a9d8df0-3124-48a3-ae4b-b173d5bde221
-set parent_of:5a9d8df0-3124-48a3-ae4b-b173d5bde221 1a59c12b-2f8c-4e9d-8fe4-290695db11db
+set ребенок:1a59c12b-2f8c-4e9d-8fe4-290695db11db 5a9d8df0-3124-48a3-ae4b-b173d5bde221
+set родитель:5a9d8df0-3124-48a3-ae4b-b173d5bde221 1a59c12b-2f8c-4e9d-8fe4-290695db11db
 
-set spouse_of:1a59c12b-2f8c-4e9d-8fe4-290695db11db 96425b4e-937c-407d-b01d-058a310a5bcd
-set spouse_of:96425b4e-937c-407d-b01d-058a310a5bcd 1a59c12b-2f8c-4e9d-8fe4-290695db11db
-set child_of:8be48fa1-dce8-487d-94d2-a4d0b3c8160c 1a59c12b-2f8c-4e9d-8fe4-290695db11db
-set child_of:8be48fa1-dce8-487d-94d2-a4d0b3c8160c 96425b4e-937c-407d-b01d-058a310a5bcd
-set parent_of:1a59c12b-2f8c-4e9d-8fe4-290695db11db 8be48fa1-dce8-487d-94d2-a4d0b3c8160c
-set parent_of:96425b4e-937c-407d-b01d-058a310a5bcd 8be48fa1-dce8-487d-94d2-a4d0b3c8160c
+set супруг:1a59c12b-2f8c-4e9d-8fe4-290695db11db 96425b4e-937c-407d-b01d-058a310a5bcd
+set супруг:96425b4e-937c-407d-b01d-058a310a5bcd 1a59c12b-2f8c-4e9d-8fe4-290695db11db
+set ребенок:8be48fa1-dce8-487d-94d2-a4d0b3c8160c 1a59c12b-2f8c-4e9d-8fe4-290695db11db
+set ребенок:8be48fa1-dce8-487d-94d2-a4d0b3c8160c 96425b4e-937c-407d-b01d-058a310a5bcd
+set родитель:1a59c12b-2f8c-4e9d-8fe4-290695db11db 8be48fa1-dce8-487d-94d2-a4d0b3c8160c
+set родитель:96425b4e-937c-407d-b01d-058a310a5bcd 8be48fa1-dce8-487d-94d2-a4d0b3c8160c
 
